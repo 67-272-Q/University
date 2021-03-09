@@ -36,8 +36,4 @@ Having cloned this repo to your laptop (recommended) or gotten the zip file from
 14. Quit rails console
 15. Load the testing data into a clean copy of your dev database with the command `rake db:contexts`. (Note that this is not built into Rails; it was written for you and also exists in your project starter code.) Once that's done, re-open rails console and run `Department.all` and `Faculty.all` and see that the testing context data is loaded in the dev environment.  If you want a challenge, repeat a similar exercise for `Course` (optional)
 
-In class, we hope to get through step 8, but in any case **please complete all steps prior to class on Thursday** so we can do another exercise then.
-
-Qapla'
-
-Prof. H & Prof. GS
+In class, we hope to get through step 8, but in any case **please complete all steps prior to class on Tuesday** so we can do another exercise then.
