@@ -2,7 +2,7 @@ module Contexts
   module Departments
 
     def create_departments
-      @is       = FactoryBot.create(:department)
+      @is       = FactoryBot.create(:department) #IS is the default department
       @cs       = FactoryBot.create(:department, name: "Computer Science", unit_prefix: "15")
       @business = FactoryBot.create(:department, name: "Business", unit_prefix: "70")
       @english  = FactoryBot.create(:department, name: "English", unit_prefix: "76")
