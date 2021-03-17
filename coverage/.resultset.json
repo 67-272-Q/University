@@ -1,7 +1,7 @@
 {
   "Minitest": {
     "coverage": {
-      "/Users/profh/67-272-S21/University/app/models/department.rb": {
+      "/Users/hbouamor/Documents/Teaching/Spring2021/67-272/lectures/2021_03_07_UnitTesting/University/app/models/department.rb": {
         "lines": [
           1,
           1,
@@ -18,14 +18,14 @@
           null
         ]
       },
-      "/Users/profh/67-272-S21/University/app/models/application_record.rb": {
+      "/Users/hbouamor/Documents/Teaching/Spring2021/67-272/lectures/2021_03_07_UnitTesting/University/app/models/application_record.rb": {
         "lines": [
           1,
           1,
           null
         ]
       },
-      "/Users/profh/67-272-S21/University/app/models/faculty.rb": {
+      "/Users/hbouamor/Documents/Teaching/Spring2021/67-272/lectures/2021_03_07_UnitTesting/University/app/models/faculty.rb": {
         "lines": [
           1,
           null,
@@ -34,18 +34,24 @@
           1,
           null,
           null,
+          2,
+          3,
+          1,
+          1,
           null,
           null,
           null,
+          1,
           null,
           null,
+          1,
           null,
           null,
           null,
           null
         ]
       },
-      "/Users/profh/67-272-S21/University/app/models/assignment.rb": {
+      "/Users/hbouamor/Documents/Teaching/Spring2021/67-272/lectures/2021_03_07_UnitTesting/University/app/models/assignment.rb": {
         "lines": [
           1,
           1,
@@ -53,7 +59,7 @@
           null
         ]
       },
-      "/Users/profh/67-272-S21/University/app/models/course.rb": {
+      "/Users/hbouamor/Documents/Teaching/Spring2021/67-272/lectures/2021_03_07_UnitTesting/University/app/models/course.rb": {
         "lines": [
           1,
           1,
@@ -62,6 +68,6 @@
         ]
       }
     },
-    "timestamp": 1614656392
+    "timestamp": 1616016844
   }
 }
