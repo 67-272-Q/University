@@ -1,4 +1,4 @@
-i67-272: University 
+67-272: University 
 ---
 
 This project was created as means of giving students an opportunity to practice course concepts with some in-class learning exercises. There is no pretense that this is a production-ready system or that it has 100 percent test coverage -- these are for learning purposes.  
