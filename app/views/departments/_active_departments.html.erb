@@ -1,0 +1,26 @@
+<h4>Active Departments at University</h4>
+
+<table class="striped highlight">
+  <thead>
+    <th>Name</th>
+    <th>Unit</th>
+    <th class="align_center">Options</th>
+  </thead>
+  <% for dpt in @active_departments %>
+    <tr class="<%= cycle('dg_list_line_odd', 'dg_list_line_even') %>">
+      <td><%= link_to dpt.name, department_path(dpt) %></td>
+      <td><%= dpt.unit_prefix %></td>
+
+    <td class="align_center">
+      <%= link_to edit_department_path(dpt) do %>
+            <i class="material-icons">edit</i>
+        <% end %>
+       
+    </td>
+    </tr>
+  <% end %>
+</table>
+<p class="supertiny"></p>
+<br />
+
+<%= render :partial => "partials/add_new_object", locals: {model_name: 'department'} %>
